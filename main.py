@@ -84,7 +84,7 @@ def SCAN(Request, initialStart):
     while i < len(request):
         totalHeadMovement += (request[i] - request[index])
         print(request[i], " is seeked")
-        drawY.append(request[1])
+        drawY.append(request[i])
         drawX.append(x)
         x += 3
         index = i
